@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #5ca5a5;
+  --color-primary-10: rgba(92, 165, 165, 0.1);
+  --color-white: #fff;
+  --color-light-bg: #effafa;
+  --color-title: #2b3939;
+  --color-gray: #7c8f8f;
+
+  --default-font-family: "League Spartan Variable", "Arial", "sans-serif";
+}
+
+@layer base {
+  html {
+    @apply min-h-screen;
+  }
+  body {
+    @apply min-h-screen text-base text-primary font-bold bg-light-bg;
+  }
+  #root {
+    @apply min-h-screen flex flex-col;
+  }
+}
+
+@layer utilities {
+  .container{
+    @apply w-full max-w-[calc(1110px_+_3rem)] mx-auto px-6
+  }
+}
+
+@layer components {
+  .header {
+    background-image: url("./images/header-left.svg"),
+      url("./images/header-right.svg");
+    background-position: bottom 0 left, top right;
+    background-repeat: no-repeat;
+  }
+  @media (max-width: 1200px) {
+    .header {
+      background-position: bottom 0 left -350px, top right;
+    }
+  }
+  @media (max-width: 992px) {
+    .header {
+      background-image: url("./images/header-right.svg");
+      background-position: top right;
+    }
+  }
+}

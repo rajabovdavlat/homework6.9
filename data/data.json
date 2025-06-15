@@ -1,0 +1,116 @@
+{
+  "condidate": [
+    {
+      "id": 1,
+      "image": "/images/cpn-img.svg",
+      "job": "Senior Frontend Developer",
+      "compny": "Photosnap",
+      "date": "2025-06-10T",
+      "workType": "Full Time",
+      "workPlace": "USA only",
+      "isNew": true,
+      "isFeatured": true,
+      "programmingLanguage": [
+        "Frontend",
+        "Senior",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    },
+    {
+      "id": 2,
+      "image": "/images/cpn-img1.svg",
+      "job": "Fullstack Developer",
+      "compny": "Manage",
+      "date": "2025-06-10T",
+      "workType": "Part Time",
+      "workPlace": "Remote",
+      "isNew": true,
+      "isFeatured": true,
+      "programmingLanguage": ["Fullstack", "Midweight", "Python", "React"]
+    },
+    {
+      "id": 3,
+      "image": "/images/cpn-img2.svg",
+      "job": "Junior Frontend Developer",
+      "compny": "Account",
+      "date": "2025-06-10T",
+      "workType": "Part Time",
+      "workPlace": "USA only",
+      "isNew": true,
+      "isFeatured": false,
+      "programmingLanguage": ["Frontend", "Junior", "React", "Sass", "JavaScript"]
+    },
+    {
+      "id": 4,  
+      "image": "/images/cpn-img3.svg",
+      "job": "Junior Frontend Developer",
+      "compny": "MyHome",
+      "date": "2025-06-07T",
+      "workType": "Contract",
+      "workPlace": "USA only",
+      "programmingLanguage": ["Frontend", "Junior", "CSS", "JavaScript"]
+    },
+    {
+      "id": 5,  
+      "image": "/images/cpn-img4.svg",
+      "job": "Software Engineer",
+      "compny": "Loop Studios",
+      "date": "2025-06-02T",
+      "workType": "Full Time",
+      "workPlace": "Worldwide",
+      "programmingLanguage": ["Fullstack", "Midweight", "JavaScript", "Sass", "Ruby"]
+    },
+    {
+      "id": 6,
+      "image": "/images/cpn-img5.svg",
+      "job": "Junior Backend Developer",
+      "compny": "FaceIt",
+      "date": "2025-06-10T",
+      "workType": "Full Time",
+      "workPlace": "UK only",
+      "programmingLanguage": ["Backend", "Junior", "Ruby", "RoR"]
+    },
+    {
+      "id": 7,
+      "image": "/images/cpn-img6.svg",
+      "job": "Junior Developer",
+      "compny": "Shortly",
+      "date": "2025-06-10T",
+      "workType": "Full Time",
+      "workPlace": "Worldwide",
+      "programmingLanguage": ["Frontend", "Junior", "HTML", "CSS", "JavaScript"]
+    },
+    {
+      "id": 8,
+      "image": "/images/cpn-img7.svg",
+      "job": "Junior Frontend Developer",
+      "compny": "Insure",
+      "date": "2025-06-10T",
+      "workType": "Full Time",
+      "workPlace": "USA only",
+      "programmingLanguage": ["Frontend", "Junior", "Vue", "JavaScript", "Sass"]
+    },
+    {
+      "id": 9,
+      "image": "/images/cpn-img8.svg",
+      "job": "Full Stack Engineer",
+      "compny": "Eyecam Co.",
+      "date": "2025-06-10T",
+      "workType": "Full Time",
+      "workPlace": "Worldwide",
+      "programmingLanguage": ["Fullstack", "Midweight", "JavaScript", "Django", "Python"]
+    },
+    {
+      "id": 10,
+      "image": "/images/cpn-img9.svg",
+      "job": "Front-end Dev",
+      "compny": "The Air Filter Company",
+      "date": "2025-06-01T",
+      "workType": "Part Time",
+      "workPlace": "Worldwide",
+      "programmingLanguage": ["Frontend", "Junior", "React", "Sass", "JavaScript"]
+    }
+  ]
+}
