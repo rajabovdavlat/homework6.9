@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const CondidateItem = ({ condidate }) => {
-  console.log(condidate);
 
   return (
     <li className='shadow-[0_15px_20px_-5px_#0D718226]'>
@@ -37,8 +36,8 @@ const CondidateItem = ({ condidate }) => {
           </div>
         </div>
         <ul className='flex items-center gap-4'>
-          {condidate.programmingLanguage.map((l) => {
-            return <li className="py-1 px-2.5 bg-primary-10 rounded-sm">{l}</li>;
+          {condidate.programmingLanguage.map((l, index) => {
+            return <li key={index} className="py-1 px-2.5 bg-primary-10 rounded-sm">{l}</li>;
           })}
         </ul>
       </Link>
